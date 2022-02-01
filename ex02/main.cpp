@@ -6,7 +6,7 @@
 /*   By: hgicquel <hgicquel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/01 18:58:12 by hgicquel          #+#    #+#             */
-/*   Updated: 2022/02/01 19:16:31 by hgicquel         ###   ########.fr       */
+/*   Updated: 2022/02/01 19:17:31 by hgicquel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,4 +66,5 @@ int	main(void)
 
 	identify(p);
 	identify(*p);
+	delete p;
 }
